@@ -1,16 +1,29 @@
-# bloc
+# Flutter BLoC Demo ⚙️ – State Management Example
 
-A new Flutter project.
+This project demonstrates the use of the **BLoC (Business Logic Component)** pattern in **Flutter** for effective state management. It showcases how to separate business logic from UI components using streams and reactive programming.
 
-## Getting Started
+## 🛠️ Tech Stack
 
-This project is a starting point for a Flutter application.
+- **Flutter** – UI toolkit for building cross-platform applications
+- **Dart** – Programming language for Flutter
+- **flutter_bloc** – BLoC state management library
+- **Equatable** – For value-based comparison of state objects
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Clean architecture with BLoC pattern
+- Reactive UI updates using streams
+- Clear separation between UI and business logic
+- Easily scalable and maintainable project structure
+- Ideal for learning and applying best practices in Flutter development
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📁 Project Structure
+
+```plaintext
+lib/
+├── bloc/               # BLoC logic: events, states, blocs
+├── models/             # Data models
+├── screens/            # UI screens
+├── widgets/            # Reusable widgets
+└── main.dart           # Entry point
+```
